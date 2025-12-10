@@ -1,0 +1,1660 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RbxMarket - Marketplace Layanan Roblox Terlengkap</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+</head>
+<body>
+    <!-- Header & Navigation -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="nav-brand">
+                    <div class="logo">
+                        <i class="fab fa-roblox"></i>
+                        <span>RbxMarket</span>
+                    </div>
+                </div>
+                
+                <div class="nav-menu" id="navMenu">
+                    <a href="#home" class="nav-link active">
+                        <i class="fas fa-home"></i> Beranda
+                    </a>
+                    <div class="nav-dropdown">
+                        <a href="#services" class="nav-link">
+                            <i class="fas fa-gamepad"></i> Layanan
+                            <i class="fas fa-chevron-down"></i>
+                        </a>
+                        <div class="dropdown-content">
+                            <a href="#joki-section"><i class="fas fa-user-check"></i> Jasa Joki</a>
+                            <a href="#accounts-section"><i class="fas fa-user-circle"></i> Akun Roblox</a>
+                            <a href="#items-section"><i class="fas fa-crown"></i> Item Limited</a>
+                            <a href="#gamepass-section"><i class="fas fa-ticket-alt"></i> Gamepass</a>
+                            <a href="#robux-section"><i class="fas fa-coins"></i> Robux</a>
+                            <a href="#group-section"><i class="fas fa-users"></i> Roblox Group</a>
+                            <a href="#development-section"><i class="fas fa-code"></i> Development</a>
+                        </div>
+                    </div>
+                    <a href="#promo" class="nav-link">
+                        <i class="fas fa-gift"></i> Promo
+                    </a>
+                    <a href="#testimonials" class="nav-link">
+                        <i class="fas fa-star"></i> Testimoni
+                    </a>
+                    <a href="#how-to-order" class="nav-link">
+                        <i class="fas fa-shopping-cart"></i> Cara Order
+                    </a>
+                    <a href="#contact" class="nav-link">
+                        <i class="fas fa-headset"></i> Support
+                    </a>
+                </div>
+                
+                <div class="nav-actions">
+                    <button class="btn-notification">
+                        <i class="fas fa-bell"></i>
+                        <span class="notification-badge">3</span>
+                    </button>
+                    <button class="btn-cart" id="cartButton">
+                        <i class="fas fa-shopping-cart"></i>
+                        <span class="cart-badge">0</span>
+                    </button>
+                    <button class="btn-account">
+                        <i class="fas fa-user"></i>
+                    </button>
+                    <button class="btn-menu" id="menuToggle">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-bg">
+            <div class="hero-container">
+                <div class="hero-content">
+                    <h1 class="hero-title">
+                        <span class="gradient-text">Marketplace Roblox</span><br>
+                        Layanan Terlengkap & Terpercaya
+                    </h1>
+                    <p class="hero-subtitle">
+                        Jasa Joki, Akun Premium, Item Limited, Gamepass, Robux Murah, dan Lainnya.
+                        100% Aman dengan Garansi!
+                    </p>
+                    <div class="hero-stats">
+                        <div class="stat">
+                            <h3>10K+</h3>
+                            <p>Transaksi</p>
+                        </div>
+                        <div class="stat">
+                            <h3>4.9★</h3>
+                            <p>Rating</p>
+                        </div>
+                        <div class="stat">
+                            <h3>24/7</h3>
+                            <p>Support</p>
+                        </div>
+                        <div class="stat">
+                            <h3>100%</h3>
+                            <p>Aman</p>
+                        </div>
+                    </div>
+                    <div class="hero-buttons">
+                        <a href="#services" class="btn-primary btn-large">
+                            <i class="fas fa-rocket"></i> Lihat Layanan
+                        </a>
+                        <a href="#promo" class="btn-secondary btn-large">
+                            <i class="fas fa-fire"></i> Promo Spesial
+                        </a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="floating-cards">
+                        <div class="floating-card card-1">
+                            <div class="floating-icon">
+                                <img src="https://img.icons8.com/color/96/000000/robux.png" alt="Robux">
+                            </div>
+                            <h4>Robux Murah</h4>
+                            <p>Mulai dari Rp 15.000</p>
+                        </div>
+                        <div class="floating-card card-2">
+                            <div class="floating-icon">
+                                <img src="https://img.icons8.com/color/96/000000/crown.png" alt="Limited Items">
+                            </div>
+                            <h4>Limited Items</h4>
+                            <p>Harga Terbaik</p>
+                        </div>
+                        <div class="floating-card card-3">
+                            <div class="floating-icon">
+                                <img src="https://img.icons8.com/color/96/000000/controller.png" alt="Joki">
+                            </div>
+                            <h4>Jasa Joki</h4>
+                            <p>Pro Cepat</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Quick Order Section -->
+    <section class="quick-order">
+        <div class="container">
+            <div class="quick-order-card">
+                <h2><i class="fas fa-bolt"></i> Order Cepat</h2>
+                <p>Pesan layanan dalam 3 menit, proses cepat & aman</p>
+                <form class="quick-order-form" id="quickOrderForm">
+                    <div class="form-group">
+                        <select id="serviceType" required>
+                            <option value="">Pilih Layanan</option>
+                            <option value="joki">Jasa Joki</option>
+                            <option value="account">Akun Roblox</option>
+                            <option value="robux">Robux</option>
+                            <option value="gamepass">Gamepass</option>
+                            <option value="limited">Item Limited</option>
+                            <option value="group">Roblox Group</option>
+                            <option value="development">Game Development</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" placeholder="Username Roblox" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" placeholder="No WhatsApp" required>
+                    </div>
+                    <button type="submit" class="btn-primary">
+                        <i class="fas fa-paper-plane"></i> Order Sekarang
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Categories -->
+    <section class="categories" id="services">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="title-badge">Pilihan Layanan</span>
+                Semua Kebutuhan Roblox Anda
+            </h2>
+            
+            <div class="categories-grid">
+                <a href="#joki-section" class="category-card">
+                    <div class="category-icon" style="background: linear-gradient(135deg, #667eea, #764ba2);">
+                        <img src="https://img.icons8.com/color/96/000000/game-controller.png" alt="Joki">
+                    </div>
+                    <h3>Jasa Joki</h3>
+                    <p>Leveling, Quest, Rank Boost</p>
+                    <span class="category-badge">Mulai Rp 10K</span>
+                </a>
+                
+                <a href="#accounts-section" class="category-card">
+                    <div class="category-icon" style="background: linear-gradient(135deg, #f093fb, #f5576c);">
+                        <img src="https://img.icons8.com/color/96/000000/user-male-circle.png" alt="Akun">
+                    </div>
+                    <h3>Akun Roblox</h3>
+                    <p>Akun Limited, VIP, Old</p>
+                    <span class="category-badge">Mulai Rp 20K</span>
+                </a>
+                
+                <a href="#items-section" class="category-card">
+                    <div class="category-icon" style="background: linear-gradient(135deg, #4facfe, #00f2fe);">
+                        <img src="https://img.icons8.com/color/96/000000/diamond.png" alt="Item Limited">
+                    </div>
+                    <h3>Item Limited</h3>
+                    <p>Dominus, Hats, Faces</p>
+                    <span class="category-badge">Mulai Rp 500K</span>
+                </a>
+                
+                <a href="#robux-section" class="category-card">
+                    <div class="category-icon" style="background: linear-gradient(135deg, #43e97b, #38f9d7);">
+                        <img src="https://img.icons8.com/color/96/000000/coins.png" alt="Robux">
+                    </div>
+                    <h3>Robux</h3>
+                    <p>Murah & Proses Instan</p>
+                    <span class="category-badge">Mulai Rp 10K</span>
+                </a>
+                
+                <a href="#gamepass-section" class="category-card">
+                    <div class="category-icon" style="background: linear-gradient(135deg, #fa709a, #fee140);">
+                        <img src="https://img.icons8.com/color/96/000000/ticket.png" alt="Gamepass">
+                    </div>
+                    <h3>Gamepass</h3>
+                    <p>Semua Game Populer</p>
+                    <span class="category-badge">Mulai Rp 10K</span>
+                </a>
+                
+                <a href="#group-section" class="category-card">
+                    <div class="category-icon" style="background: linear-gradient(135deg, #30cfd0, #330867);">
+                        <img src="https://img.icons8.com/color/96/000000/group.png" alt="Group">
+                    </div>
+                    <h3>Roblox Group</h3>
+                    <p>Jual/Beli Group</p>
+                    <span class="category-badge">Mulai Rp 150K</span>
+                </a>
+                
+                <a href="#development-section" class="category-card">
+                    <div class="category-icon" style="background: linear-gradient(135deg, #a8edea, #fed6e3); color: #333;">
+                        <img src="https://img.icons8.com/color/96/000000/code.png" alt="Development">
+                    </div>
+                    <h3>Game Dev</h3>
+                    <p>Script, Model, Game</p>
+                    <span class="category-badge">Mulai Rp 300K</span>
+                </a>
+                
+                <a href="#vip-section" class="category-card">
+                    <div class="category-icon" style="background: linear-gradient(135deg, #ff9a9e, #fad0c4); color: #333;">
+                        <img src="https://img.icons8.com/color/96/000000/vip.png" alt="VIP">
+                    </div>
+                    <h3>VIP Package</h3>
+                    <p>Paket Lengkap</p>
+                    <span class="category-badge">Mulai Rp 1JT</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Joki Services Section -->
+    <section class="services-section" id="joki-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">
+                    <i class="fas fa-user-check"></i> Jasa Joki Roblox
+                </h2>
+                <p class="section-subtitle">Leveling, Quest, Rank Boosting oleh pro player terpercaya</p>
+            </div>
+            
+            <div class="game-filter">
+                <button class="filter-btn active" data-game="all">Semua Game</button>
+                <button class="filter-btn" data-game="blox-fruits">Blox Fruits</button>
+                <button class="filter-btn" data-game="king-legacy">King Legacy</button>
+                <button class="filter-btn" data-game="pet-simulator">Pet Simulator X</button>
+                <button class="filter-btn" data-game="adopt-me">Adopt Me!</button>
+                <button class="filter-btn" data-game="mm2">Murder Mystery 2</button>
+            </div>
+            
+            <div class="services-grid" id="jokiServices">
+                <!-- Joki services will be loaded from JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Robux Section -->
+    <section class="robux-section" id="robux-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">
+                    <i class="fas fa-coins"></i> Robux Murah
+                </h2>
+                <p class="section-subtitle">Proses instan, harga termurah, garansi 100% aman</p>
+            </div>
+            
+            <div class="robux-grid">
+                <div class="robux-card">
+                    <div class="robux-header">
+                        <h3>80 Robux</h3>
+                        <div class="robux-badge">MURAH</div>
+                    </div>
+                    <div class="robux-image">
+                        <img src="https://img.icons8.com/color/96/000000/coin-in-hand.png" alt="1,000 Robux">
+                    </div>
+                    <div class="robux-price">
+                        <span class="price">Rp 15.000</span>
+                        <span class="price-old">Rp 18.000</span>
+                    </div>
+                    <ul class="robux-features">
+                        <li><i class="fas fa-check"></i> Proses 5-15 menit</li>
+                        <li><i class="fas fa-check"></i> Metode Group Funds</li>
+                        <li><i class="fas fa-check"></i> Garansi aman</li>
+                        <li><i class="fas fa-check"></i> Support 24/7</li>
+                    </ul>
+                    <button class="btn-primary btn-block" onclick="addToCart('robux', '1,000 Robux', 15000)">
+                        <i class="fas fa-cart-plus"></i> Beli Sekarang
+                    </button>
+                </div>
+                
+                <div class="robux-card popular">
+                    <div class="robux-header">
+                        <h3>1000 Robux</h3>
+                        <div class="robux-badge">POPULER</div>
+                    </div>
+                    <div class="robux-image">
+                        <img src="https://img.icons8.com/color/96/000000/coins.png" alt="2,500 Robux">
+                    </div>
+                    <div class="robux-price">
+                        <span class="price">Rp 150.000</span>
+                        <span class="price-old">Rp 160.000</span>
+                    </div>
+                    <div class="robux-bonus"></div>
+                    <ul class="robux-features">
+                        <li><i class="fas fa-check"></i> Proses 5-15 menit</li>
+                        <li><i class="fas fa-check"></i> Via Login</li>
+                        <li><i class="fas fa-check"></i> Garansi aman</li>
+                        <li><i class="fas fa-check"></i> Support 24/7</li>
+                    </ul>
+                    <button class="btn-primary btn-block" onclick="addToCart('robux', '2,500 Robux', 35000)">
+                        <i class="fas fa-cart-plus"></i> Beli Sekarang
+                    </button>
+                </div>
+                
+                <div class="robux-card">
+                    <div class="robux-header">
+                        <h3>2,000 Robux</h3>
+                        <div class="robux-badge">HEMAT</div>
+                    </div>
+                    <div class="robux-image">
+                        <img src="https://img.icons8.com/color/96/000000/money-bag.png" alt="5,000 Robux">
+                    </div>
+                    <div class="robux-price">
+                        <span class="price">Rp 302.000</span>
+                        <span class="price-old">Rp 310.000</span>
+                    </div>
+                    <div class="robux-bonus"></div>
+                    <ul class="robux-features">
+                        <li><i class="fas fa-check"></i> Proses 5-15 menit</li>
+                        <li><i class="fas fa-check"></i> Metode Group Funds</li>
+                        <li><i class="fas fa-check"></i> Garansi aman</li>
+                        <li><i class="fas fa-check"></i> Support 24/7</li>
+                    </ul>
+                    <button class="btn-primary btn-block" onclick="addToCart('robux', '5,000 Robux', 65000)">
+                        <i class="fas fa-cart-plus"></i> Beli Sekarang
+                    </button>
+                </div>
+                
+                <div class="robux-card">
+                    <div class="robux-header">
+                        <h3>10,000 Robux</h3>
+                        <div class="robux-badge">BEST DEAL</div>
+                    </div>
+                    <div class="robux-image">
+                        <img src="https://img.icons8.com/color/96/000000/treasure-chest.png" alt="10,000 Robux">
+                    </div>
+                    <div class="robux-price">
+                        <span class="price">Rp 1.491.000</span>
+                        <span class="price-old">Rp 1.500.000</span>
+                    </div>
+                    <div class="robux-bonus"></div>
+                    <ul class="robux-features">
+                        <li><i class="fas fa-check"></i> Proses 5-15 menit</li>
+                        <li><i class="fas fa-check"></i> Metode Group Funds</li>
+                        <li><i class="fas fa-check"></i> Garansi aman</li>
+                        <li><i class="fas fa-check"></i> Support 24/7</li>
+                    </ul>
+                    <button class="btn-primary btn-block" onclick="addToCart('robux', '10,000 Robux', 120000)">
+                        <i class="fas fa-cart-plus"></i> Beli Sekarang
+                    </button>
+                </div>
+            </div>
+            
+            <!-- Robux 5 Hari -->
+            <div class="section-subsection">
+                <h3><i class="fas fa-clock"></i> Robux 5 Hari</h3>
+                <p>Paket khusus untuk kebutuhan jangka pendek</p>
+                <div class="robux-days-grid">
+                    <div class="robux-day-card">
+                        <div class="day-image">
+                            <img src="https://img.icons8.com/color/48/000000/clock.png" alt="5 Days">
+                        </div>
+                        <h4>100 Robux / 5 Hari</h4>
+                        <div class="price">Rp 15.000</div>
+                        <button class="btn-secondary">Pesan</button>
+                    </div>
+                    <div class="robux-day-card">
+                        <div class="day-image">
+                            <img src="https://img.icons8.com/color/48/000000/calendar.png" alt="5 Days">
+                        </div>
+                        <h4>1.000 Robux / 5 Hari</h4>
+                        <div class="price">Rp 140.000</div>
+                        <button class="btn-secondary">Pesan</button>
+                    </div>
+                    <div class="robux-day-card">
+                        <div class="day-image">
+                            <img src="https://img.icons8.com/color/48/000000/sand-timer.png" alt="5 Days">
+                        </div>
+                        <h4>5,000 Robux / 5 Hari</h4>
+                        <div class="price">Rp 700.000</div>
+                        <button class="btn-secondary">Pesan</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Accounts Section -->
+    <section class="accounts-section" id="accounts-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">
+                    <i class="fas fa-user-circle"></i> Akun Roblox Premium
+                </h2>
+                <p class="section-subtitle">Akun limited, old account, dan akun spesial lainnya</p>
+            </div>
+            
+            <div class="accounts-grid">
+                <div class="account-card">
+                    <div class="card-image">
+                        <img src="https://tr.rbxcdn.com/abf5c8e9b7d3e4f5a6b7c8d9e0f1a2b3/420/420/Avatar/Png" alt="Limited Account 2015">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-badge">2015 Account</span>
+                        <h3>Limited Account 2015</h3>
+                        <p>Akun Roblox tahun 2015 dengan beberapa limited items</p>
+                        <ul class="card-features">
+                            <li><i class="fas fa-check"></i> Made: 2015</li>
+                            <li><i class="fas fa-check"></i> Limited Items: 5+</li>
+                            <li><i class="fas fa-check"></i> Robux: 0</li>
+                            <li><i class="fas fa-check"></i> No Email</li>
+                        </ul>
+                        <div class="card-price">
+                            <div>
+                                <span class="price">Rp 500.000</span>
+                                <span class="price-old">Rp 750.000</span>
+                            </div>
+                            <button class="btn-primary" onclick="addToCart('account', 'Limited Account 2015', 500000)">
+                                <i class="fas fa-cart-plus"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="account-card">
+                    <div class="card-image">
+                        <img src="https://tr.rbxcdn.com/bc6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f/420/420/Avatar/Png" alt="Valkyrie Helm Account">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-badge">Valkyrie Helm</span>
+                        <h3>Valkyrie Helm Account</h3>
+                        <p>Akun dengan Valkyrie Helm dan limited lainnya</p>
+                        <ul class="card-features">
+                            <li><i class="fas fa-check"></i> Valkyrie Helm</li>
+                            <li><i class="fas fa-check"></i> Other Limiteds</li>
+                            <li><i class="fas fa-check"></i> Robux: 5000</li>
+                            <li><i class="fas fa-check"></i> Full access</li>
+                        </ul>
+                        <div class="card-price">
+                            <div>
+                                <span class="price">Rp 1.500.000</span>
+                                <span class="price-old">Rp 2.000.000</span>
+                            </div>
+                            <button class="btn-primary" onclick="addToCart('account', 'Valkyrie Helm Account', 1500000)">
+                                <i class="fas fa-cart-plus"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="account-card">
+                    <div class="card-image">
+                        <img src="https://tr.rbxcdn.com/cd7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a/420/420/Avatar/Png" alt="Headless Account">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-badge">Headless</span>
+                        <h3>Headless Account</h3>
+                        <p>Akun dengan Headless Horseman package</p>
+                        <ul class="card-features">
+                            <li><i class="fas fa-check"></i> Headless Horseman</li>
+                            <li><i class="fas fa-check"></i> Korblox</li>
+                            <li><i class="fas fa-check"></i> Robux: 10000</li>
+                            <li><i class="fas fa-check"></i> Email verified</li>
+                        </ul>
+                        <div class="card-price">
+                            <div>
+                                <span class="price">Rp 5.000.000</span>
+                                <span class="price-old">Rp 7.500.000</span>
+                            </div>
+                            <button class="btn-primary" onclick="addToCart('account', 'Headless Account', 5000000)">
+                                <i class="fas fa-cart-plus"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Limited Items Section -->
+    <section class="items-section" id="items-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">
+                    <i class="fas fa-crown"></i> Item Limited Roblox
+                </h2>
+                <p class="section-subtitle">Dominus, hats, faces, dan limited items langka</p>
+            </div>
+            
+            <div class="items-grid">
+                <div class="item-card">
+                    <div class="card-image">
+                        <img src="https://tr.rbxcdn.com/0e1e43a52b9f5d8b5f2c8a1c3b4d5e6f/420/420/Hat/Png" alt="Dominus Empyreus">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-badge">Legendary</span>
+                        <h3>Dominus Empyreus</h3>
+                        <p>One of the rarest dominus items in Roblox</p>
+                        <p><strong>Demand:</strong> <span style="color: #ff4757;">Very High</span></p>
+                        <div class="card-price">
+                            <div>
+                                <span class="price">Rp 8.000.000</span>
+                                <span class="price-old">Rp 10.000.000</span>
+                            </div>
+                            <button class="btn-primary" onclick="addToCart('item', 'Dominus Empyreus', 8000000)">
+                                <i class="fas fa-cart-plus"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="item-card">
+                    <div class="card-image">
+                        <img src="https://tr.rbxcdn.com/9b6b5e7f3c8d2a1b4f5e6d7c8b9a0f1e/420/420/Hat/Png" alt="Headless Horseman">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-badge">Legendary</span>
+                        <h3>Headless Horseman</h3>
+                        <p>Limited Halloween package from 2013</p>
+                        <p><strong>Demand:</strong> <span style="color: #ff4757;">Extreme</span></p>
+                        <div class="card-price">
+                            <div>
+                                <span class="price">Rp 15.000.000</span>
+                                <span class="price-old">Rp 20.000.000</span>
+                            </div>
+                            <button class="btn-primary" onclick="addToCart('item', 'Headless Horseman', 15000000)">
+                                <i class="fas fa-cart-plus"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="item-card">
+                    <div class="card-image">
+                        <img src="https://tr.rbxcdn.com/7c8b9a0f1e2d3c4b5a6f7e8d9c0b1a2f/420/420/Hat/Png" alt="Valkyrie Helm">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-badge">Epic</span>
+                        <h3>Valkyrie Helm</h3>
+                        <p>Popular limited helmet always in demand</p>
+                        <p><strong>Demand:</strong> <span style="color: #ffa502;">High</span></p>
+                        <div class="card-price">
+                            <div>
+                                <span class="price">Rp 4.500.000</span>
+                                <span class="price-old">Rp 6.000.000</span>
+                            </div>
+                            <button class="btn-primary" onclick="addToCart('item', 'Valkyrie Helm', 4500000)">
+                                <i class="fas fa-cart-plus"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="item-card">
+                    <div class="card-image">
+                        <img src="https://tr.rbxcdn.com/5a4b3c2d1e0f9a8b7c6d5e4f3a2b1c0d/420/420/Hat/Png" alt="Shaggy">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-badge">Rare</span>
+                        <h3>Shaggy</h3>
+                        <p>Limited from 2018, value keeps increasing</p>
+                        <p><strong>Demand:</strong> <span style="color: #ffa502;">High</span></p>
+                        <div class="card-price">
+                            <div>
+                                <span class="price">Rp 5.000.000</span>
+                                <span class="price-old">Rp 6.500.000</span>
+                            </div>
+                            <button class="btn-primary" onclick="addToCart('item', 'Shaggy', 5000000)">
+                                <i class="fas fa-cart-plus"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gamepass Section -->
+    <section class="gamepass-section" id="gamepass-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">
+                    <i class="fas fa-ticket-alt"></i> Gamepass Populer
+                </h2>
+                <p class="section-subtitle">Gamepass semua game Roblox terpopuler</p>
+            </div>
+            
+            <div class="gamepass-grid">
+                <div class="gamepass-card">
+                    <div class="card-image" style="background: linear-gradient(135deg, #fa709a, #fee140);">
+                        <img src="https://img.icons8.com/color/96/000000/fruit.png" alt="Blox Fruits">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-badge">Blox Fruits</span>
+                        <h3>Blox Fruits - All Gamepass</h3>
+                        <p>Semua gamepass Blox Fruits terbaru</p>
+                        <p><strong>Includes:</strong> 2x Money, 2x Mastery, Fruit Storage, More</p>
+                        <div class="card-price">
+                            <div>
+                                <span class="price">Rp 650.000</span>
+                                <span class="price-old">Rp 700.000</span>
+                            </div>
+                            <button class="btn-primary" onclick="addToCart('gamepass', 'Blox Fruits - All Gamepass', 300000)">
+                                <i class="fas fa-cart-plus"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="gamepass-card">
+                    <div class="card-image" style="background: linear-gradient(135deg, #4facfe, #00f2fe);">
+                        <img src="https://img.icons8.com/color/96/000000/dog.png" alt="Pet Simulator X">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-badge">Pet Simulator X</span>
+                        <h3>Pet Simulator X - All Gamepass</h3>
+                        <p>Complete gamepass bundle Pet Simulator X</p>
+                        <p><strong>Includes:</strong> Auto Farm, Huge Hunter, Triple Damage, More</p>
+                        <div class="card-price">
+                            <div>
+                                <span class="price">Rp 250.000</span>
+                                <span class="price-old">Rp 350.000</span>
+                            </div>
+                            <button class="btn-primary" onclick="addToCart('gamepass', 'Pet Simulator X - All Gamepass', 250000)">
+                                <i class="fas fa-cart-plus"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="gamepass-card">
+                    <div class="card-image" style="background: linear-gradient(135deg, #43e97b, #38f9d7);">
+                        <img src="https://img.icons8.com/color/96/000000/baby.png" alt="Adopt Me!">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-badge">Adopt Me!</span>
+                        <h3>Adopt Me! - Full Bundle</h3>
+                        <p>Semua gamepass Adopt Me termasuk fly & ride</p>
+                        <p><strong>Includes:</strong> Fly, Ride, Money Bags, More</p>
+                        <div class="card-price">
+                            <div>
+                                <span class="price">Rp 150.000</span>
+                                <span class="price-old">Rp 200.000</span>
+                            </div>
+                            <button class="btn-primary" onclick="addToCart('gamepass', 'Adopt Me! - Full Bundle', 150000)">
+                                <i class="fas fa-cart-plus"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="gamepass-card">
+                    <div class="card-image" style="background: linear-gradient(135deg, #667eea, #764ba2);">
+                        <img src="https://img.icons8.com/color/96/000000/sword.png" alt="King Legacy">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-badge">King Legacy</span>
+                        <h3>King Legacy - All Gamepass</h3>
+                        <p>Complete gamepass bundle untuk King Legacy</p>
+                        <p><strong>Includes:</strong> 2x Mastery, 2x Beli, Auto Farm, More</p>
+                        <div class="card-price">
+                            <div>
+                                <span class="price">Rp 200.000</span>
+                                <span class="price-old">Rp 280.000</span>
+                            </div>
+                            <button class="btn-primary" onclick="addToCart('gamepass', 'King Legacy - All Gamepass', 200000)">
+                                <i class="fas fa-cart-plus"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tambahan Blox Fruits Gamepass Section -->
+    <section class="gamepass-detailed-section" id="bloxfruits-gamepass">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">
+                    <i class="fas fa-dragon"></i> Gamepass Blox Fruits Lengkap
+                </h2>
+                <p class="section-subtitle">Harga terbaru sesuai pasaran Indonesia 2024</p>
+            </div>
+            
+            <div class="gamepass-detailed-grid">
+                <div class="gamepass-item-card">
+                    <div class="gamepass-icon" style="background: linear-gradient(135deg, #FF6B6B, #FFE66D);">
+                        <img src="https://img.icons8.com/color/96/000000/double.png" alt="2x Money">
+                    </div>
+                    <h3>2x Money</h3>
+                    <p>Gamepass untuk mendapatkan 2x uang</p>
+                    <div class="gamepass-price">
+                        <span class="price">Rp 120.000</span>
+                        <span class="price-old">Rp 150.000</span>
+                    </div>
+                    <button class="btn-primary btn-small" onclick="addToCart('gamepass', 'Blox Fruits 2x Money', 120000)">
+                        <i class="fas fa-cart-plus"></i> Tambah
+                    </button>
+                </div>
+                
+                <div class="gamepass-item-card">
+                    <div class="gamepass-icon" style="background: linear-gradient(135deg, #4ECDC4, #556270);">
+                        <img src="https://img.icons8.com/color/96/000000/experience-skill.png" alt="2x Mastery">
+                    </div>
+                    <h3>2x Mastery</h3>
+                    <p>Gamepass untuk mendapatkan 2x mastery</p>
+                    <div class="gamepass-price">
+                        <span class="price">Rp 120.000</span>
+                        <span class="price-old">Rp 150.000</span>
+                    </div>
+                    <button class="btn-primary btn-small" onclick="addToCart('gamepass', 'Blox Fruits 2x Mastery', 120000)">
+                        <i class="fas fa-cart-plus"></i> Tambah
+                    </button>
+                </div>
+                
+                <div class="gamepass-item-card">
+                    <div class="gamepass-icon" style="background: linear-gradient(135deg, #9D50BB, #6E48AA);">
+                        <img src="https://img.icons8.com/color/96/000000/box.png" alt="Fruit Storage">
+                    </div>
+                    <h3>+1 Fruit Storage</h3>
+                    <p>Tambah slot penyimpanan buah</p>
+                    <div class="gamepass-price">
+                        <span class="price">Rp 250.000</span>
+                        <span class="price-old">Rp 300.000</span>
+                    </div>
+                    <button class="btn-primary btn-small" onclick="addToCart('gamepass', 'Blox Fruits +1 Fruit Storage', 250000)">
+                        <i class="fas fa-cart-plus"></i> Tambah
+                    </button>
+                </div>
+                
+                <div class="gamepass-item-card">
+                    <div class="gamepass-icon" style="background: linear-gradient(135deg, #FF7E5F, #FEB47B);">
+                        <img src="https://img.icons8.com/color/96/000000/warehouse.png" alt="More Storage">
+                    </div>
+                    <h3>+1 Fruit Storage (Tambahan)</h3>
+                    <p>Slot penyimpanan buah tambahan</p>
+                    <div class="gamepass-price">
+                        <span class="price">Rp 45.000</span>
+                        <span class="price-old">Rp 52.000</span>
+                    </div>
+                    <button class="btn-primary btn-small" onclick="addToCart('gamepass', 'Blox Fruits +1 Fruit Storage (2)', 400000)">
+                        <i class="fas fa-cart-plus"></i> Tambah
+                    </button>
+                </div>
+                
+                <div class="gamepass-item-card">
+                    <div class="gamepass-icon" style="background: linear-gradient(135deg, #00C9FF, #92FE9D);">
+                        <img src="https://img.icons8.com/color/96/000000/boss.png" alt="Boss Drop">
+                    </div>
+                    <h3>2x Boss Drop</h3>
+                    <p>Peluang dapat drop dari boss 2x lebih besar</p>
+                    <div class="gamepass-price">
+                        <span class="price">Rp 150.000</span>
+                        <span class="price-old">Rp 180.000</span>
+                    </div>
+                    <button class="btn-primary btn-small" onclick="addToCart('gamepass', 'Blox Fruits 2x Boss Drop', 150000)">
+                        <i class="fas fa-cart-plus"></i> Tambah
+                    </button>
+                </div>
+                
+                <div class="gamepass-item-card">
+                    <div class="gamepass-icon" style="background: linear-gradient(135deg, #DA4453, #89216B);">
+                        <img src="https://img.icons8.com/color/96/000000/sword.png" alt="Fast Boats">
+                    </div>
+                    <h3>Fast Boats</h3>
+                    <p>Perahu lebih cepat untuk menjelajah laut</p>
+                    <div class="gamepass-price">
+                        <span class="price">Rp 80.000</span>
+                        <span class="price-old">Rp 100.000</span>
+                    </div>
+                    <button class="btn-primary btn-small" onclick="addToCart('gamepass', 'Blox Fruits Fast Boats', 80000)">
+                        <i class="fas fa-cart-plus"></i> Tambah
+                    </button>
+                </div>
+                
+                <div class="gamepass-item-card popular">
+                    <div class="gamepass-badge">PALING LARIS</div>
+                    <div class="gamepass-icon" style="background: linear-gradient(135deg, #FFD89B, #19547B);">
+                        <img src="https://img.icons8.com/color/96/000000/package.png" alt="All Gamepass">
+                    </div>
+                    <h3>Paket All Gamepass</h3>
+                    <p>Semua gamepass Blox Fruits lengkap</p>
+                    <div class="gamepass-price">
+                        <span class="price">Rp 850.000</span>
+                        <span class="price-old">Rp 1.200.000</span>
+                    </div>
+                    <button class="btn-primary btn-small" onclick="addToCart('gamepass', 'Blox Fruits All Gamepass Package', 850000)">
+                        <i class="fas fa-cart-plus"></i> Tambah
+                    </button>
+                </div>
+                
+                <div class="gamepass-item-card">
+                    <div class="gamepass-icon" style="background: linear-gradient(135deg, #834d9b, #d04ed6);">
+                        <img src="https://img.icons8.com/color/96/000000/dark-souls.png" alt="Dark Blade">
+                    </div>
+                    <h3>Dark Blade</h3>
+                    <p>Sword legendary yang sangat kuat</p>
+                    <div class="gamepass-price">
+                        <span class="price">Rp 700.000</span>
+                        <span class="price-old">Rp 850.000</span>
+                    </div>
+                    <button class="btn-primary btn-small" onclick="addToCart('gamepass', 'Blox Fruits Dark Blade', 700000)">
+                        <i class="fas fa-cart-plus"></i> Tambah
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tambahan King Legacy Gamepass Section -->
+    <section class="gamepass-detailed-section" id="kinglegacy-gamepass">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">
+                    <i class="fas fa-crown"></i> Gamepass King Legacy Lengkap
+                </h2>
+                <p class="section-subtitle">Harga update terbaru 2024</p>
+            </div>
+            
+            <div class="gamepass-detailed-grid">
+                <div class="gamepass-item-card">
+                    <div class="gamepass-icon" style="background: linear-gradient(135deg, #FF9A9E, #FAD0C4);">
+                        <img src="https://img.icons8.com/color/96/000000/coins.png" alt="2x Money">
+                    </div>
+                    <h3>2x Money</h3>
+                    <p>Mendapatkan uang 2x lebih banyak</p>
+                    <div class="gamepass-price">
+                        <span class="price">Rp 100.000</span>
+                        <span class="price-old">Rp 120.000</span>
+                    </div>
+                    <button class="btn-primary btn-small" onclick="addToCart('gamepass', 'King Legacy 2x Money', 100000)">
+                        <i class="fas fa-cart-plus"></i> Tambah
+                    </button>
+                </div>
+                
+                <div class="gamepass-item-card">
+                    <div class="gamepass-icon" style="background: linear-gradient(135deg, #A18CD1, #FBC2EB);">
+                        <img src="https://img.icons8.com/color/96/000000/experience.png" alt="2x Mastery">
+                    </div>
+                    <h3>2x Mastery</h3>
+                    <p>Mastery meningkat 2x lebih cepat</p>
+                    <div class="gamepass-price">
+                        <span class="price">Rp 100.000</span>
+                        <span class="price-old">Rp 120.000</span>
+                    </div>
+                    <button class="btn-primary btn-small" onclick="addToCart('gamepass', 'King Legacy 2x Mastery', 100000)">
+                        <i class="fas fa-cart-plus"></i> Tambah
+                    </button>
+                </div>
+                
+                <div class="gamepass-item-card">
+                    <div class="gamepass-icon" style="background: linear-gradient(135deg, #FAD961, #F76B1C);">
+                        <img src="https://img.icons8.com/color/96/000000/online-store.png" alt="2x Beli">
+                    </div>
+                    <h3>2x Beli</h3>
+                    <p>Harga beli item 2x lebih murah</p>
+                    <div class="gamepass-price">
+                        <span class="price">Rp 150.000</span>
+                        <span class="price-old">Rp 180.000</span>
+                    </div>
+                    <button class="btn-primary btn-small" onclick="addToCart('gamepass', 'King Legacy 2x Beli', 150000)">
+                        <i class="fas fa-cart-plus"></i> Tambah
+                    </button>
+                </div>
+                
+                <div class="gamepass-item-card">
+                    <div class="gamepass-icon" style="background: linear-gradient(135deg, #FFECD2, #FCB69F);">
+                        <img src="https://img.icons8.com/color/96/000000/find-matching-job.png" alt="Auto Farm">
+                    </div>
+                    <h3>Auto Farm</h3>
+                    <p>Fitur auto farm untuk leveling otomatis</p>
+                    <div class="gamepass-price">
+                        <span class="price">Rp 250.000</span>
+                        <span class="price-old">Rp 300.000</span>
+                    </div>
+                    <button class="btn-primary btn-small" onclick="addToCart('gamepass', 'King Legacy Auto Farm', 250000)">
+                        <i class="fas fa-cart-plus"></i> Tambah
+                    </button>
+                </div>
+                
+                <div class="gamepass-item-card popular">
+                    <div class="gamepass-badge">TERPOPULER</div>
+                    <div class="gamepass-icon" style="background: linear-gradient(135deg, #6A11CB, #2575FC);">
+                        <img src="https://img.icons8.com/color/96/000000/star.png" alt="All Gamepass">
+                    </div>
+                    <h3>Paket Komplit</h3>
+                    <p>Semua gamepass King Legacy</p>
+                    <div class="gamepass-price">
+                        <span class="price">Rp 500.000</span>
+                        <span class="price-old">Rp 650.000</span>
+                    </div>
+                    <button class="btn-primary btn-small" onclick="addToCart('gamepass', 'King Legacy All Gamepass', 500000)">
+                        <i class="fas fa-cart-plus"></i> Tambah
+                    </button>
+                </div>
+                
+                <div class="gamepass-item-card">
+                    <div class="gamepass-icon" style="background: linear-gradient(135deg, #FF5858, #F09819);">
+                        <img src="https://img.icons8.com/color/96/000000/statue.png" alt="Stat Reset">
+                    </div>
+                    <h3>Stat Reset</h3>
+                    <p>Reset stat karakter tanpa kehilangan level</p>
+                    <div class="gamepass-price">
+                        <span class="price">Rp 80.000</span>
+                        <span class="price-old">Rp 100.000</span>
+                    </div>
+                    <button class="btn-primary btn-small" onclick="addToCart('gamepass', 'King Legacy Stat Reset', 80000)">
+                        <i class="fas fa-cart-plus"></i> Tambah
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tambahan Jasa Joki Detail Section -->
+    <section class="joki-detailed-section" id="detailed-joki">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">
+                    <i class="fas fa-user-tie"></i> Jasa Joki Detail
+                </h2>
+                <p class="section-subtitle">Harga jasa joki berbagai game sesuai keahlian pro player</p>
+            </div>
+            
+            <div class="joki-game-tabs">
+                <button class="joki-tab active" data-game="bloxfruits">Blox Fruits</button>
+                <button class="joki-tab" data-game="kinglegacy">King Legacy</button>
+                <button class="joki-tab" data-game="petsimulator">Pet Simulator X</button>
+                <button class="joki-tab" data-game="adoptme">Adopt Me!</button>
+                <button class="joki-tab" data-game="mm2">Murder Mystery 2</button>
+            </div>
+            
+            <!-- Blox Fruits Joki Services -->
+            <div class="joki-game-content active" id="bloxfruits-joki">
+                <h3><i class="fas fa-dragon"></i> Jasa Joki Blox Fruits</h3>
+                <div class="joki-services-grid">
+                    <div class="joki-service-card">
+                        <h4>Leveling 0-100</h4>
+                        <p>Leveling dari awal hingga level 100</p>
+                        <div class="joki-price">
+                            <span class="price">Rp 5.000</span>
+                            <span class="time"><i class="fas fa-clock"></i> 1Hari</span>
+                        </div>
+                        <button class="btn-primary btn-small" onclick="addToCart('joki', 'Blox Fruits Leveling 0-100', 50000)">Order</button>
+                    </div>
+                    
+                    <div class="joki-service-card">
+                        <h4>Leveling 0-500</h4>
+                        <p>Leveling cepat hingga level 500</p>
+                        <div class="joki-price">
+                            <span class="price">Rp 150.000</span>
+                            <span class="time"><i class="fas fa-clock"></i> 1 Hari</span>
+                        </div>
+                        <button class="btn-primary btn-small" onclick="addToCart('joki', 'Blox Fruits Leveling 0-500', 150000)">Order</button>
+                    </div>
+                    
+                    <div class="joki-service-card popular">
+                        <div class="popular-badge">PALING DIMINATI</div>
+                        <h4>Leveling 0-1000</h4>
+                        <p>Leveling hingga max level pertama</p>
+                        <div class="joki-price">
+                            <span class="price">Rp 300.000</span>
+                            <span class="time"><i class="fas fa-clock"></i> 5-7 Hari</span>
+                        </div>
+                        <button class="btn-primary btn-small" onclick="addToCart('joki', 'Blox Fruits Leveling 0-1000', 300000)">Order</button>
+                    </div>
+                    
+                    <div class="joki-service-card">
+                        <h4>Leveling 0-2000</h4>
+                        <p>Leveling hingga max level kedua</p>
+                        <div class="joki-price">
+                            <span class="price">Rp 600.000</span>
+                            <span class="time"><i class="fas fa-clock"></i> 10-14 Hari</span>
+                        </div>
+                        <button class="btn-primary btn-small" onclick="addToCart('joki', 'Blox Fruits Leveling 0-2000', 600000)">Order</button>
+                    </div>
+                    
+                    <div class="joki-service-card">
+                        <h4>Sea 1 to Sea 2</h4>
+                        <p>Bantu naik ke sea 2 + boss farming</p>
+                        <div class="joki-price">
+                            <span class="price">Rp 100.000</span>
+                            <span class="time"><i class="fas fa-clock"></i> 1-2 Hari</span>
+                        </div>
+                        <button class="btn-primary btn-small" onclick="addToCart('joki', 'Blox Fruits Sea 1 to Sea 2', 100000)">Order</button>
+                    </div>
+                    
+                    <div class="joki-service-card">
+                        <h4>Sea 2 to Sea 3</h4>
+                        <p>Bantu naik ke sea 3 + awaken fruit</p>
+                        <div class="joki-price">
+                            <span class="price">Rp 150.000</span>
+                            <span class="time"><i class="fas fa-clock"></i> 2-3 Hari</span>
+                        </div>
+                        <button class="btn-primary btn-small" onclick="addToCart('joki', 'Blox Fruits Sea 2 to Sea 3', 150000)">Order</button>
+                    </div>
+                    
+                    <div class="joki-service-card">
+                        <h4>Raid Service</h4>
+                        <p>Jasa raid untuk awaken buah</p>
+                        <div class="joki-price">
+                            <span class="price">Rp 25.000/raid</span>
+                            <span class="time"><i class="fas fa-clock"></i> Instant</span>
+                        </div>
+                        <button class="btn-primary btn-small" onclick="addToCart('joki', 'Blox Fruits Raid Service', 25000)">Order</button>
+                    </div>
+                    
+                    <div class="joki-service-card">
+                        <h4>Boss Farming</h4>
+                        <p>Farm boss untuk drops dan fragmen</p>
+                        <div class="joki-price">
+                            <span class="price">Rp 50.000/jam</span>
+                            <span class="time"><i class="fas fa-clock"></i> Flexibel</span>
+                        </div>
+                        <button class="btn-primary btn-small" onclick="addToCart('joki', 'Blox Fruits Boss Farming (per jam)', 50000)">Order</button>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- King Legacy Joki Services -->
+            <div class="joki-game-content" id="kinglegacy-joki">
+                <h3><i class="fas fa-crown"></i> Jasa Joki King Legacy</h3>
+                <div class="joki-services-grid">
+                    <div class="joki-service-card">
+                        <h4>Leveling 0-100</h4>
+                        <p>Leveling awal game</p>
+                        <div class="joki-price">
+                            <span class="price">Rp 40.000</span>
+                            <span class="time"><i class="fas fa-clock"></i> 1 Hari</span>
+                        </div>
+                        <button class="btn-primary btn-small" onclick="addToCart('joki', 'King Legacy Leveling 0-100', 40000)">Order</button>
+                    </div>
+                    
+                    <div class="joki-service-card">
+                        <h4>Leveling 0-500</h4>
+                        <p>Leveling hingga mid game</p>
+                        <div class="joki-price">
+                            <span class="price">Rp 120.000</span>
+                            <span class="time"><i class="fas fa-clock"></i> 3-4 Hari</span>
+                        </div>
+                        <button class="btn-primary btn-small" onclick="addToCart('joki', 'King Legacy Leveling 0-500', 120000)">Order</button>
+                    </div>
+                    
+                    <div class="joki-service-card">
+                        <h4>Leveling 0-1000</h4>
+                        <p>Leveling hingga max level</p>
+                        <div class="joki-price">
+                            <span class="price">Rp 250.000</span>
+                            <span class="time"><i class="fas fa-clock"></i> 5-7 Hari</span>
+                        </div>
+                        <button class="btn-primary btn-small" onclick="addToCart('joki', 'King Legacy Leveling 0-1000', 250000)">Order</button>
+                    </div>
+                    
+                    <div class="joki-service-card popular">
+                        <div class="popular-badge">RECOMMENDED</div>
+                        <h4>Boss Farming</h4>
+                        <p>Farm boss untuk drops dan fragmen</p>
+                        <div class="joki-price">
+                            <span class="price">Rp 40.000/jam</span>
+                            <span class="time"><i class="fas fa-clock"></i> Flexibel</span>
+                        </div>
+                        <button class="btn-primary btn-small" onclick="addToCart('joki', 'King Legacy Boss Farming (per jam)', 40000)">Order</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tambahan Top Up Robux Detail -->
+    <section class="robux-detailed-section" id="detailed-robux">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">
+                    <i class="fas fa-coins"></i> Top Up Robux Lengkap
+                </h2>
+                <p class="section-subtitle">Harga robux termurah dengan berbagai metode pembayaran</p>
+            </div>
+            
+            <div class="robux-method-tabs">
+                <button class="robux-tab active" data-method="groupfunds">Group Funds</button>
+                <button class="robux-tab" data-method="gamepass">Gamepass</button>
+                <button class="robux-tab" data-method="clothing">Clothing</button>
+                <button class="robux-tab" data-method="premium">Premium Payout</button>
+            </div>
+            
+            <div class="robux-table-container">
+                <table class="robux-price-table">
+                    <thead>
+                        <tr>
+                            <th>Jumlah Robux</th>
+                            <th>Harga Normal</th>
+                            <th>Harga Promo</th>
+                            <th>Estimasi Waktu</th>
+                            <th>Aksi</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>400 Robux</strong></td>
+                            <td><span class="price-old">Rp 65.000</span></td>
+                            <td><span class="price">Rp 55.000</span></td>
+                            <td>5-15 menit</td>
+                            <td><button class="btn-primary btn-small" onclick="addToCart('robux', '400 Robux', 55000)">Beli</button></td>
+                        </tr>
+                        <tr>
+                            <td><strong>800 Robux</strong></td>
+                            <td><span class="price-old">Rp 120.000</span></td>
+                            <td><span class="price">Rp 105.000</span></td>
+                            <td>5-15 menit</td>
+                            <td><button class="btn-primary btn-small" onclick="addToCart('robux', '800 Robux', 105000)">Beli</button></td>
+                        </tr>
+                        <tr class="popular-row">
+                            <td><strong>1,000 Robux</strong> <span class="badge">POPULER</span></td>
+                            <td><span class="price-old">Rp 155.000</span></td>
+                            <td><span class="price">Rp 150.000</span></td>
+                            <td>5-15 menit</td>
+                            <td><button class="btn-primary btn-small" onclick="addToCart('robux', '1,000 Robux', 150000)">Beli</button></td>
+                        </tr>
+                        <tr>
+                            <td><strong>2,000 Robux</strong></td>
+                            <td><span class="price-old">Rp 310.000</span></td>
+                            <td><span class="price">Rp 302.000</span></td>
+                            <td>10-30 menit</td>
+                            <td><button class="btn-primary btn-small" onclick="addToCart('robux', '2,000 Robux', 302000)">Beli</button></td>
+                        </tr>
+                        <tr>
+                            <td><strong>3,000 Robux</strong></td>
+                            <td><span class="price-old">Rp 450.000</span></td>
+                            <td><span class="price">Rp 425.000</span></td>
+                            <td>10-30 menit</td>
+                            <td><button class="btn-primary btn-small" onclick="addToCart('robux', '3,000 Robux', 425000)">Beli</button></td>
+                        </tr>
+                        <tr>
+                            <td><strong>4,000 Robux</strong></td>
+                            <td><span class="price-old">Rp 600.000</span></td>
+                            <td><span class="price">Rp 580.000</span></td>
+                            <td>15-45 menit</td>
+                            <td><button class="btn-primary btn-small" onclick="addToCart('robux', '4,000 Robux', 580000)">Beli</button></td>
+                        </tr>
+                        <tr>
+                            <td><strong>5,000 Robux</strong></td>
+                            <td><span class="price-old">Rp 750.000</span></td>
+                            <td><span class="price">Rp 720.000</span></td>
+                            <td>15-45 menit</td>
+                            <td><button class="btn-primary btn-small" onclick="addToCart('robux', '5,000 Robux', 720000)">Beli</button></td>
+                        </tr>
+                        <tr class="best-value">
+                            <td><strong>10,000 Robux</strong> <span class="badge">BEST VALUE</span></td>
+                            <td><span class="price-old">Rp 1,500.000</span></td>
+                            <td><span class="price">Rp 1,491.000</span></td>
+                            <td>30-60 menit</td>
+                            <td><button class="btn-primary btn-small" onclick="addToCart('robux', '10,000 Robux', 1491000)">Beli</button></td>
+                        </tr>
+                        <tr>
+                            <td><strong>20,000 Robux</strong></td>
+                            <td><span class="price-old">Rp 3,000.000</span></td>
+                            <td><span class="price">Rp 2,950.000</span></td>
+                            <td>1-2 jam</td>
+                            <td><button class="btn-primary btn-small" onclick="addToCart('robux', '20,000 Robux', 2950000)">Beli</button></td>
+                        </tr>
+                        <tr>
+                            <td><strong>50,000 Robux</strong></td>
+                            <td><span class="price-old">Rp 7,500.000</span></td>
+                            <td><span class="price">Rp 7,250.000</span></td>
+                            <td>3-5 jam</td>
+                            <td><button class="btn-primary btn-small" onclick="addToCart('robux', '50,000 Robux', 7250000)">Beli</button></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            
+            <div class="robux-info-box">
+                <div class="info-icon">
+                    <i class="fas fa-info-circle"></i>
+                </div>
+                <div class="info-content">
+                    <h4>Informasi Penting:</h4>
+                    <ul>
+                        <li><strong>Group Funds:</strong> Metode paling aman via pembelian gamepass di group</li>
+                        <li><strong>Gamepass:</strong> Metode cepat via pembelian gamepass di game</li>
+                        <li><strong>Garansi 100%:</strong> Uang kembali jika robux tidak masuk</li>
+                        <li><strong>Proses:</strong> Setelah pembayaran, kirim username Roblox Anda</li>
+                        <li><strong>Support:</strong> Bantuan 24/7 via WhatsApp dan Discord</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="robux-bulk-discount">
+                <h4><i class="fas fa-percentage"></i> Diskon Pembelian Besar</h4>
+                <div class="discount-cards">
+                    <div class="discount-card">
+                        <h5>Min. 10K Robux</h5>
+                        <p>Diskon tambahan 5%</p>
+                    </div>
+                    <div class="discount-card">
+                        <h5>Min. 50K Robux</h5>
+                        <p>Diskon tambahan 10%</p>
+                    </div>
+                    <div class="discount-card">
+                        <h5>Min. 100K Robux</h5>
+                        <p>Diskon tambahan 15%</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Group Services -->
+    <section class="group-section" id="group-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">
+                    <i class="fas fa-users"></i> Roblox Group Services
+                </h2>
+                <p class="section-subtitle">Jual beli group, setup, management</p>
+            </div>
+            
+            <div class="group-services">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <img src="https://img.icons8.com/color/96/000000/shopping-cart.png" alt="Jual Beli">
+                    </div>
+                    <h3>Jual/Beli Group</h3>
+                    <p>Group dengan member aktif, custom setup</p>
+                    <div class="price">Rp 150.000+</div>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <img src="https://img.icons8.com/color/96/000000/settings.png" alt="Setup">
+                    </div>
+                    <h3>Group Setup</h3>
+                    <p>Setup ranks, logo, banner, permissions</p>
+                    <div class="price">Rp 75.000</div>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <img src="https://img.icons8.com/color/96/000000/statistics.png" alt="Management">
+                    </div>
+                    <h3>Group Management</h3>
+                    <p>Daily management, event hosting</p>
+                    <div class="price">Rp 200.000/bulan</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Development Services -->
+    <section class="development-section" id="development-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">
+                    <i class="fas fa-code"></i> Game Development
+                </h2>
+                <p class="section-subtitle">Jasa pembuatan game, script, model Roblox</p>
+            </div>
+            
+            <div class="dev-services">
+                <div class="dev-card">
+                    <div class="dev-icon">
+                        <img src="https://img.icons8.com/color/96/000000/code-file.png" alt="Scripting">
+                    </div>
+                    <h3>Scripting</h3>
+                    <p>Custom script Lua untuk game Anda</p>
+                    <div class="price">Rp 100.000+</div>
+                </div>
+                
+                <div class="dev-card">
+                    <div class="dev-icon">
+                        <img src="https://img.icons8.com/color/96/000000/3d-model.png" alt="3D Modeling">
+                    </div>
+                    <h3>3D Modeling</h3>
+                    <p>Model karakter, weapon, building</p>
+                    <div class="price">Rp 250.000+</div>
+                </div>
+                
+                <div class="dev-card">
+                    <div class="dev-icon">
+                        <img src="https://img.icons8.com/color/96/000000/game.png" alt="Game Dev">
+                    </div>
+                    <h3>Full Game Dev</h3>
+                    <p>Pembuatan game Roblox lengkap</p>
+                    <div class="price">Rp 1.000.000+</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Promo Section -->
+    <section class="promo-section" id="promo">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">
+                    <i class="fas fa-gift"></i> Promo & Diskon Spesial
+                </h2>
+                <p class="section-subtitle">Dapatkan harga terbaik dengan promo kami</p>
+            </div>
+            
+            <div class="promo-banners">
+                <div class="promo-banner promo-1">
+                    <div class="promo-content">
+                        <div class="promo-image">
+                            <img src="https://img.icons8.com/color/96/000000/discount.png" alt="Diskon">
+                        </div>
+                        <h3>DISKON 10%</h3>
+                        <p>Untuk pembelian pertama</p>
+                        <button class="btn-primary">Klaim Sekarang</button>
+                    </div>
+                </div>
+                
+                <div class="promo-banner promo-2">
+                    <div class="promo-content">
+                        <div class="promo-image">
+                            <img src="https://img.icons8.com/color/96/000000/gift.png" alt="Bonus">
+                        </div>
+                        <h3>BUY 2 GET 1</h3>
+                        <p>Paket Robux & Gamepass</p>
+                        <button class="btn-primary">Lihat Syarat</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How to Order -->
+    <section class="how-to-order" id="how-to-order">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Cara Order Mudah</h2>
+                <p class="section-subtitle">Hanya 4 langkah untuk mendapatkan layanan</p>
+            </div>
+            
+            <div class="steps">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <div class="step-icon">
+                        <img src="https://img.icons8.com/color/96/000000/search.png" alt="Pilih">
+                    </div>
+                    <h3>Pilih Layanan</h3>
+                    <p>Cari layanan yang Anda butuhkan</p>
+                </div>
+                
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <div class="step-icon">
+                        <img src="https://img.icons8.com/color/96/000000/shopping-cart.png" alt="Checkout">
+                    </div>
+                    <h3>Checkout</h3>
+                    <p>Masukkan data dan checkout</p>
+                </div>
+                
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <div class="step-icon">
+                        <img src="https://img.icons8.com/color/96/000000/card-payment.png" alt="Bayar">
+                    </div>
+                    <h3>Bayar</h3>
+                    <p>Transfer ke rekening kami</p>
+                </div>
+                
+                <div class="step">
+                    <div class="step-number">4</div>
+                    <div class="step-icon">
+                        <img src="https://img.icons8.com/color/96/000000/checked.png" alt="Konfirmasi">
+                    </div>
+                    <h3>Konfirmasi</h3>
+                    <p>Layanan diproses & selesai</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials" id="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">
+                    <i class="fas fa-star"></i> Testimoni Pelanggan
+                </h2>
+                <p class="section-subtitle">Apa kata mereka tentang layanan kami</p>
+            </div>
+            
+            <div class="testimonials-slider">
+                <div class="swiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="testimonial-card">
+                                <div class="testimonial-header">
+                                    <img src="https://i.pravatar.cc/150?img=1" alt="Customer">
+                                    <div>
+                                        <h4>Budi Santoso</h4>
+                                        <div class="stars">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <p>"Joki Blox Fruits dari 0-1000 hanya 2 hari, hasil memuaskan!"</p>
+                            </div>
+                        </div>
+                        
+                        <div class="swiper-slide">
+                            <div class="testimonial-card">
+                                <div class="testimonial-header">
+                                    <img src="https://i.pravatar.cc/150?img=2" alt="Customer">
+                                    <div>
+                                        <h4>Sari Dewi</h4>
+                                        <div class="stars">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star-half-alt"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <p>"Robux 1k hanya 80rb, proses 10 menit langsung masuk!"</p>
+                            </div>
+                        </div>
+                        
+                        <div class="swiper-slide">
+                            <div class="testimonial-card">
+                                <div class="testimonial-header">
+                                    <img src="https://i.pravatar.cc/150?img=3" alt="Customer">
+                                    <div>
+                                        <h4>Rizky Pratama</h4>
+                                        <div class="stars">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <p>"Beli Dominus Empyreus, seller terpercaya dan aman!"</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact & Support -->
+    <section class="contact-section" id="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">
+                    <i class="fas fa-headset"></i> Hubungi Kami
+                </h2>
+                <p class="section-subtitle">Butuh bantuan? Tim support kami siap membantu 24/7</p>
+            </div>
+            
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <div class="contact-method">
+                        <div class="contact-icon">
+                            <img src="https://img.icons8.com/color/96/000000/whatsapp.png" alt="WhatsApp">
+                        </div>
+                        <div>
+                            <h3>WhatsApp</h3>
+                            <p>+62 895-3316-88882</p>
+                            <a href="https://wa.me/62895331688882" class="contact-link">Chat Sekarang</a>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-method">
+                        <div class="contact-icon">
+                            <img src="https://img.icons8.com/color/96/000000/gmail.png" alt="Email">
+                        </div>
+                        <div>
+                            <h3>Email</h3>
+                            <p>support@rbxmarket.com</p>
+                            <a href="mailto:support@rbxmarket.com" class="contact-link">Kirim Email</a>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-method">
+                        <div class="contact-icon">
+                            <img src="https://img.icons8.com/color/96/000000/discord-new-logo.png" alt="Discord">
+                        </div>
+                        <div>
+                            <h3>Discord</h3>
+                            <p>rbxmarket.official</p>
+                            <a href="#" class="contact-link">Join Server</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-form">
+                    <h3>Kirim Pesan</h3>
+                    <form id="contactForm">
+                        <input type="text" placeholder="Nama Lengkap" required>
+                        <input type="email" placeholder="Email" required>
+                        <input type="text" placeholder="Subjek" required>
+                        <textarea placeholder="Pesan Anda" rows="4" required></textarea>
+                        <button type="submit" class="btn-primary">
+                            <i class="fas fa-paper-plane"></i> Kirim Pesan
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <div class="logo">
+                        <i class="fab fa-roblox"></i>
+                        <span>RbxMarket</span>
+                    </div>
+                    <p>Marketplace layanan Roblox terlengkap dan terpercaya sejak 2020.</p>
+                    <div class="social-links">
+                        <a href="#"><img src="https://img.icons8.com/color/48/000000/instagram-new.png" alt="Instagram"></a>
+                        <a href="#"><img src="https://img.icons8.com/color/48/000000/whatsapp.png" alt="WhatsApp"></a>
+                        <a href="#"><img src="https://img.icons8.com/color/48/000000/discord-new-logo.png" alt="Discord"></a>
+                        <a href="#"><img src="https://img.icons8.com/color/48/000000/youtube-play.png" alt="YouTube"></a>
+                    </div>
+                </div>
+                
+                <div class="footer-col">
+                    <h4>Layanan</h4>
+                    <ul>
+                        <li><a href="#joki-section">Jasa Joki</a></li>
+                        <li><a href="#accounts-section">Akun Roblox</a></li>
+                        <li><a href="#robux-section">Robux Murah</a></li>
+                        <li><a href="#items-section">Item Limited</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h4>Informasi</h4>
+                    <ul>
+                        <li><a href="#">Syarat & Ketentuan</a></li>
+                        <li><a href="#">Kebijakan Privasi</a></li>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Blog</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h4>Pembayaran</h4>
+                    <div class="payment-methods">
+                        <img src="https://img.icons8.com/color/48/000000/visa.png" alt="VISA">
+                        <img src="https://img.icons8.com/color/48/000000/mastercard.png" alt="MasterCard">
+                        <img src="https://img.icons8.com/color/48/000000/paypal.png" alt="PayPal">
+                        <img src="https://img.icons8.com/color/48/000000/bank.png" alt="Bank Transfer">
+                        <img src="https://img.icons8.com/color/48/000000/wallet.png" alt="E-Wallet">
+                    </div>
+                    <p class="disclaimer">*Harga dapat berubah sewaktu-waktu</p>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 RbxMarket. All rights reserved. Roblox is a registered trademark of Roblox Corporation.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Cart Modal -->
+    <div class="cart-modal" id="cartModal">
+        <div class="cart-content">
+            <div class="cart-header">
+                <h3><i class="fas fa-shopping-cart"></i> Keranjang</h3>
+                <button class="close-btn" id="closeCart">&times;</button>
+            </div>
+            <div class="cart-body">
+                <div class="cart-items" id="cartItems">
+                    <!-- Cart items will be loaded here -->
+                </div>
+                <div class="cart-empty" id="cartEmpty">
+                    <img src="https://img.icons8.com/color/96/000000/shopping-basket.png" alt="Empty Cart">
+                    <p>Keranjang belanja kosong</p>
+                </div>
+                <div class="cart-summary" id="cartSummary">
+                    <div class="summary-row">
+                        <span>Subtotal:</span>
+                        <span id="cartSubtotal">Rp 0</span>
+                    </div>
+                    <div class="summary-row">
+                        <span>Biaya Admin:</span>
+                        <span id="cartFee">Rp 0</span>
+                    </div>
+                    <div class="summary-row total">
+                        <span>Total:</span>
+                        <span id="cartTotal">Rp 0</span>
+                    </div>
+                    <button class="btn-primary btn-block" id="checkoutBtn">Checkout Sekarang</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Order Modal -->
+    <div class="order-modal" id="orderModal">
+        <div class="order-content">
+            <!-- Order form will be loaded here -->
+        </div>
+    </div>
+
+    <!-- WhatsApp Float -->
+    <a href="https://wa.me/62895331688882" class="whatsapp-float" target="_blank">
+        <img src="https://img.icons8.com/color/96/000000/whatsapp.png" alt="WhatsApp">
+    </a>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
